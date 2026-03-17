@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 *** Using Compiler 'V5.06 update 7 (build 960)', folder: 'E:\keil5\keil32\app\ARM\ARMCC\Bin'
 Build target 'zj-one'
 compiling RTOS_Tasks.c...
 compiling OLED.c...
+=======
+Load "zj-one\\zj-one.axf" 
+Erase Done.Programming Done.Verify OK.Application running ...
+Flash Load finished at 19:29:11
+>>>>>>> d72bbd4 (RTOS_Tasks Init all)

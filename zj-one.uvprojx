@@ -439,6 +439,7 @@
               <FilePath>../Core/Src/freertos.c</FilePath>
             </File>
             <File>
+<<<<<<< HEAD
               <FileName>dma.c</FileName>
               <FileType>1</FileType>
               <FilePath>../Core/Src/dma.c</FilePath>
@@ -495,6 +496,8 @@
               </FileOption>
             </File>
             <File>
+=======
+>>>>>>> d72bbd4 (RTOS_Tasks Init all)
               <FileName>usart.c</FileName>
               <FileType>1</FileType>
               <FilePath>../Core/Src/usart.c</FilePath>
