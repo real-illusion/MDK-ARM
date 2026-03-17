@@ -1,0 +1,15 @@
+zj-one\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/event_groups.c
+zj-one\event_groups.o: E:\keil5\keil32\app\ARM\ARMCC\Bin\..\include\stdlib.h
+zj-one\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+zj-one\event_groups.o: E:\keil5\keil32\app\ARM\ARMCC\Bin\..\include\stddef.h
+zj-one\event_groups.o: E:\keil5\keil32\app\ARM\ARMCC\Bin\..\include\stdint.h
+zj-one\event_groups.o: ../Core/Inc/FreeRTOSConfig.h
+zj-one\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+zj-one\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+zj-one\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+zj-one\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h
+zj-one\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+zj-one\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+zj-one\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+zj-one\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h
+zj-one\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h

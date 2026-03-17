@@ -1,0 +1,14 @@
+zj-one\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/croutine.c
+zj-one\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+zj-one\croutine.o: E:\keil5\keil32\app\ARM\ARMCC\Bin\..\include\stddef.h
+zj-one\croutine.o: E:\keil5\keil32\app\ARM\ARMCC\Bin\..\include\stdint.h
+zj-one\croutine.o: ../Core/Inc/FreeRTOSConfig.h
+zj-one\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+zj-one\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+zj-one\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+zj-one\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h
+zj-one\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+zj-one\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+zj-one\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+zj-one\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/croutine.h
+zj-one\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
