@@ -6,6 +6,7 @@
 "zj-one\main.o"
 "zj-one\gpio.o"
 "zj-one\freertos.o"
+"zj-one\dma.o"
 "zj-one\usart.o"
 "zj-one\stm32f1xx_it.o"
 "zj-one\stm32f1xx_hal_msp.o"
