@@ -43,18 +43,12 @@ zj-one\rtos_tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h
 zj-one\rtos_tasks.o: ..\Core\Inc\RTOS_Tasks.h
 zj-one\rtos_tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h
 zj-one\rtos_tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h
-<<<<<<< HEAD
 zj-one\rtos_tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h
-=======
->>>>>>> d72bbd4 (RTOS_Tasks Init all)
 zj-one\rtos_tasks.o: ..\Core\Inc\oled.h
 zj-one\rtos_tasks.o: ..\Core\Inc\OLED_Data.h
 zj-one\rtos_tasks.o: ..\Core\Inc\gpio.h
 zj-one\rtos_tasks.o: ..\Core\Inc\usart.h
-<<<<<<< HEAD
 zj-one\rtos_tasks.o: ..\Core\Inc\dma.h
-=======
->>>>>>> d72bbd4 (RTOS_Tasks Init all)
 zj-one\rtos_tasks.o: E:\keil5\keil32\app\ARM\ARMCC\Bin\..\include\stdarg.h
 zj-one\rtos_tasks.o: E:\keil5\keil32\app\ARM\ARMCC\Bin\..\include\stdio.h
 zj-one\rtos_tasks.o: E:\keil5\keil32\app\ARM\ARMCC\Bin\..\include\string.h

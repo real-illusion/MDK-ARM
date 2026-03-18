@@ -6,10 +6,7 @@
 "zj-one\main.o"
 "zj-one\gpio.o"
 "zj-one\freertos.o"
-<<<<<<< HEAD
 "zj-one\dma.o"
-=======
->>>>>>> d72bbd4 (RTOS_Tasks Init all)
 "zj-one\usart.o"
 "zj-one\stm32f1xx_it.o"
 "zj-one\stm32f1xx_hal_msp.o"

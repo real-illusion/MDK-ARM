@@ -1,12 +1,7 @@
 Dependencies for Project 'zj-one', Target 'zj-one': (DO NOT MODIFY !)
 CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
-<<<<<<< HEAD
 F (startup_stm32f103xb.s)(0x69B94821)(--cpu Cortex-M3 -g --apcs=interwork -I ../Core/Inc -I ../Drivers/CMSIS/Include-I.\RTE\_zj-one-IC:\Users\86188\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\86188\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.2.0\Device\Include--pd "__UVISION_VERSION SETA 536" --pd "_RTE_ SETA 1" --pd "STM32F10X_MD SETA 1" --pd "_RTE_ SETA 1"--list startup_stm32f103xb.lst --xref -o zj-one\startup_stm32f103xb.o --depend zj-one\startup_stm32f103xb.d)
-F (..\Core\Inc\RTOS_Tasks.c)(0x69B94B52)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_zj-one-IC:\Users\86188\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\86188\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o zj-one\rtos_tasks.o --omf_browse zj-one\rtos_tasks.crf --depend zj-one\rtos_tasks.d)
-=======
-F (startup_stm32f103xb.s)(0x69B93E21)(--cpu Cortex-M3 -g --apcs=interwork -I ../Core/Inc -I ../Drivers/CMSIS/Include-I.\RTE\_zj-one-IC:\Users\86188\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\86188\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.2.0\Device\Include--pd "__UVISION_VERSION SETA 536" --pd "_RTE_ SETA 1" --pd "STM32F10X_MD SETA 1" --pd "_RTE_ SETA 1"--list startup_stm32f103xb.lst --xref -o zj-one\startup_stm32f103xb.o --depend zj-one\startup_stm32f103xb.d)
-F (..\Core\Inc\RTOS_Tasks.c)(0x69B93E39)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_zj-one-IC:\Users\86188\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\86188\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o zj-one\rtos_tasks.o --omf_browse zj-one\rtos_tasks.crf --depend zj-one\rtos_tasks.d)
->>>>>>> d72bbd4 (RTOS_Tasks Init all)
+F (..\Core\Inc\RTOS_Tasks.c)(0x69BA7A3C)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_zj-one-IC:\Users\86188\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\86188\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o zj-one\rtos_tasks.o --omf_browse zj-one\rtos_tasks.crf --depend zj-one\rtos_tasks.d)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x69B501E0)
 I (E:\keil5\keil32\app\ARM\ARMCC\include\stddef.h)(0x6025237E)
 I (E:\keil5\keil32\app\ARM\ARMCC\include\stdint.h)(0x6025237E)
@@ -20,11 +15,7 @@ I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x69B501E0)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x69B501E0)
 I (..\Core\Inc\main.h)(0x68DDEA49)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69B501DD)
-<<<<<<< HEAD
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69B9481F)
-=======
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69B93E1E)
->>>>>>> d72bbd4 (RTOS_Tasks Init all)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69B501DD)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69B501DD)
 I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69B501DD)
@@ -51,26 +42,19 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69B501DC)
 I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h)(0x69B501E0)
 I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h)(0x69B501E0)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x69B501E0)
-I (..\Core\Inc\RTOS_Tasks.h)(0x68DDEC0C)
+I (..\Core\Inc\RTOS_Tasks.h)(0x69B94C21)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x69B501E0)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x69B501E0)
-<<<<<<< HEAD
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x69B501E0)
 I (..\Core\Inc\oled.h)(0x69B7FDA2)
 I (..\Core\Inc\OLED_Data.h)(0x69B7FD2A)
 I (..\Core\Inc\gpio.h)(0x68DDEA47)
 I (..\Core\Inc\usart.h)(0x69B94A96)
 I (..\Core\Inc\dma.h)(0x69B9481E)
-=======
-I (..\Core\Inc\oled.h)(0x69B7FDA2)
-I (..\Core\Inc\OLED_Data.h)(0x69B7FD2A)
-I (..\Core\Inc\gpio.h)(0x68DDEA47)
-I (..\Core\Inc\usart.h)(0x68DDEB59)
->>>>>>> d72bbd4 (RTOS_Tasks Init all)
 I (E:\keil5\keil32\app\ARM\ARMCC\include\stdarg.h)(0x60252376)
 I (E:\keil5\keil32\app\ARM\ARMCC\include\stdio.h)(0x60252374)
 I (E:\keil5\keil32\app\ARM\ARMCC\include\string.h)(0x6025237E)
-F (..\Core\Inc\RTOS_Tasks.h)(0x68DDEC0C)()
+F (..\Core\Inc\RTOS_Tasks.h)(0x69B94C21)()
 F (..\Core\Inc\OLED_Data.h)(0x69B7FD2A)()
 F (..\Core\Src\OLED.c)(0x69B7FE79)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_zj-one-IC:\Users\86188\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\86188\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o zj-one\oled.o --omf_browse zj-one\oled.crf --depend zj-one\oled.d)
 I (../Core/Inc/OLED.h)(0x69B7FDA2)
@@ -89,11 +73,7 @@ I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x69B501E0)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x69B501E0)
 I (../Core/Inc/main.h)(0x68DDEA49)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69B501DD)
-<<<<<<< HEAD
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69B9481F)
-=======
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69B93E1E)
->>>>>>> d72bbd4 (RTOS_Tasks Init all)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69B501DD)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69B501DD)
 I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69B501DD)
@@ -120,15 +100,11 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69B501DC)
 I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h)(0x69B501E0)
 I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h)(0x69B501E0)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x69B501E0)
-I (../Core/Inc/RTOS_Tasks.h)(0x68DDEC0C)
+I (../Core/Inc/RTOS_Tasks.h)(0x69B94C21)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x69B501E0)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x69B501E0)
 I (../Core/Inc/gpio.h)(0x68DDEA47)
-<<<<<<< HEAD
 I (../Core/Inc/usart.h)(0x69B94A96)
-=======
-I (../Core/Inc/usart.h)(0x68DDEB59)
->>>>>>> d72bbd4 (RTOS_Tasks Init all)
 I (E:\keil5\keil32\app\ARM\ARMCC\include\stdarg.h)(0x60252376)
 I (E:\keil5\keil32\app\ARM\ARMCC\include\stdio.h)(0x60252374)
 I (E:\keil5\keil32\app\ARM\ARMCC\include\string.h)(0x6025237E)
@@ -136,17 +112,10 @@ F (..\Core\Inc\OLED.h)(0x69B7FDA2)()
 F (..\Core\Src\OELD_Data.c)(0x69B7FD2A)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_zj-one-IC:\Users\86188\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\86188\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o zj-one\oeld_data.o --omf_browse zj-one\oeld_data.crf --depend zj-one\oeld_data.d)
 I (../Core/Inc/OLED_Data.h)(0x69B7FD2A)
 I (E:\keil5\keil32\app\ARM\ARMCC\include\stdint.h)(0x6025237E)
-<<<<<<< HEAD
 F (../Core/Src/main.c)(0x69B9481F)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_zj-one-IC:\Users\86188\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\86188\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o zj-one\main.o --omf_browse zj-one\main.crf --depend zj-one\main.d)
 I (../Core/Inc/main.h)(0x68DDEA49)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69B501DD)
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69B9481F)
-=======
-F (../Core/Src/main.c)(0x69B7FACD)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_zj-one-IC:\Users\86188\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\86188\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o zj-one\main.o --omf_browse zj-one\main.crf --depend zj-one\main.d)
-I (../Core/Inc/main.h)(0x68DDEA49)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69B501DD)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69B93E1E)
->>>>>>> d72bbd4 (RTOS_Tasks Init all)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69B501DD)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69B501DD)
 I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69B501DD)
@@ -183,22 +152,14 @@ I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x69B501E0
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x69B501E0)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x69B501E0)
 I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h)(0x69B501E0)
-<<<<<<< HEAD
 I (../Core/Inc/dma.h)(0x69B9481E)
 I (../Core/Inc/usart.h)(0x69B94A96)
-=======
-I (../Core/Inc/usart.h)(0x68DDEB59)
->>>>>>> d72bbd4 (RTOS_Tasks Init all)
 I (../Core/Inc/gpio.h)(0x68DDEA47)
 F (../Core/Src/gpio.c)(0x69B7FAC9)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_zj-one-IC:\Users\86188\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\86188\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o zj-one\gpio.o --omf_browse zj-one\gpio.crf --depend zj-one\gpio.d)
 I (../Core/Inc/gpio.h)(0x68DDEA47)
 I (../Core/Inc/main.h)(0x68DDEA49)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69B501DD)
-<<<<<<< HEAD
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69B9481F)
-=======
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69B93E1E)
->>>>>>> d72bbd4 (RTOS_Tasks Init all)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69B501DD)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69B501DD)
 I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69B501DD)
@@ -238,11 +199,7 @@ I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x69B501E0)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x69B501E0)
 I (../Core/Inc/main.h)(0x68DDEA49)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69B501DD)
-<<<<<<< HEAD
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69B9481F)
-=======
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69B93E1E)
->>>>>>> d72bbd4 (RTOS_Tasks Init all)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69B501DD)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69B501DD)
 I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69B501DD)
@@ -269,23 +226,14 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69B501DC)
 I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h)(0x69B501E0)
 I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h)(0x69B501E0)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x69B501E0)
-I (../Core/Inc/RTOS_Tasks.h)(0x68DDEC0C)
+I (../Core/Inc/RTOS_Tasks.h)(0x69B94C21)
 I (../Core/Inc/gpio.h)(0x68DDEA47)
-<<<<<<< HEAD
 I (../Core/Inc/usart.h)(0x69B94A96)
 F (../Core/Src/dma.c)(0x69B9481E)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_zj-one-IC:\Users\86188\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\86188\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o zj-one\dma.o --omf_browse zj-one\dma.crf --depend zj-one\dma.d)
 I (../Core/Inc/dma.h)(0x69B9481E)
 I (../Core/Inc/main.h)(0x68DDEA49)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69B501DD)
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69B9481F)
-=======
-I (../Core/Inc/usart.h)(0x68DDEB59)
-F (../Core/Src/usart.c)(0x69B93E1D)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_zj-one-IC:\Users\86188\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\86188\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o zj-one\usart.o --omf_browse zj-one\usart.crf --depend zj-one\usart.d)
-I (../Core/Inc/usart.h)(0x68DDEB59)
-I (../Core/Inc/main.h)(0x68DDEA49)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69B501DD)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69B93E1E)
->>>>>>> d72bbd4 (RTOS_Tasks Init all)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69B501DD)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69B501DD)
 I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69B501DD)
@@ -311,18 +259,11 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x69B501DD)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x69B501DC)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x69B501DD)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69B501DC)
-<<<<<<< HEAD
 F (../Core/Src/usart.c)(0x69B94A66)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_zj-one-IC:\Users\86188\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\86188\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o zj-one\usart.o --omf_browse zj-one\usart.crf --depend zj-one\usart.d)
 I (../Core/Inc/usart.h)(0x69B94A96)
 I (../Core/Inc/main.h)(0x68DDEA49)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69B501DD)
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69B9481F)
-=======
-F (../Core/Src/stm32f1xx_it.c)(0x69B93E1E)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_zj-one-IC:\Users\86188\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\86188\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o zj-one\stm32f1xx_it.o --omf_browse zj-one\stm32f1xx_it.crf --depend zj-one\stm32f1xx_it.d)
-I (../Core/Inc/main.h)(0x68DDEA49)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69B501DD)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69B93E1E)
->>>>>>> d72bbd4 (RTOS_Tasks Init all)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69B501DD)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69B501DD)
 I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69B501DD)
@@ -348,7 +289,6 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x69B501DD)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x69B501DC)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x69B501DD)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69B501DC)
-<<<<<<< HEAD
 F (../Core/Src/stm32f1xx_it.c)(0x69B9481E)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_zj-one-IC:\Users\86188\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\86188\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o zj-one\stm32f1xx_it.o --omf_browse zj-one\stm32f1xx_it.crf --depend zj-one\stm32f1xx_it.d)
 I (../Core/Inc/main.h)(0x68DDEA49)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69B501DD)
@@ -383,13 +323,6 @@ F (../Core/Src/stm32f1xx_hal_msp.c)(0x69B7FACC)(--c99 -c --cpu Cortex-M3 -g -O2 
 I (../Core/Inc/main.h)(0x68DDEA49)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69B501DD)
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69B9481F)
-=======
-I (../Core/Inc/stm32f1xx_it.h)(0x69B93E1E)
-F (../Core/Src/stm32f1xx_hal_msp.c)(0x69B7FACC)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_zj-one-IC:\Users\86188\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\86188\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o zj-one\stm32f1xx_hal_msp.o --omf_browse zj-one\stm32f1xx_hal_msp.crf --depend zj-one\stm32f1xx_hal_msp.d)
-I (../Core/Inc/main.h)(0x68DDEA49)
-I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69B501DD)
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69B93E1E)
->>>>>>> d72bbd4 (RTOS_Tasks Init all)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69B501DD)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69B501DD)
 I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69B501DD)
@@ -417,11 +350,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x69B501DD)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69B501DC)
 F (../Core/Src/stm32f1xx_hal_timebase_tim.c)(0x69B7FACC)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_zj-one-IC:\Users\86188\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\86188\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o zj-one\stm32f1xx_hal_timebase_tim.o --omf_browse zj-one\stm32f1xx_hal_timebase_tim.crf --depend zj-one\stm32f1xx_hal_timebase_tim.d)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69B501DD)
-<<<<<<< HEAD
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69B9481F)
-=======
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69B93E1E)
->>>>>>> d72bbd4 (RTOS_Tasks Init all)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69B501DD)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69B501DD)
 I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69B501DD)
@@ -449,11 +378,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x69B501DD)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69B501DC)
 F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c)(0x69B501DD)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_zj-one-IC:\Users\86188\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\86188\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o zj-one\stm32f1xx_hal_gpio_ex.o --omf_browse zj-one\stm32f1xx_hal_gpio_ex.crf --depend zj-one\stm32f1xx_hal_gpio_ex.d)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69B501DD)
-<<<<<<< HEAD
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69B9481F)
-=======
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69B93E1E)
->>>>>>> d72bbd4 (RTOS_Tasks Init all)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69B501DD)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69B501DD)
 I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69B501DD)
@@ -481,11 +406,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x69B501DD)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69B501DC)
 F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c)(0x69B501DD)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_zj-one-IC:\Users\86188\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\86188\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o zj-one\stm32f1xx_hal_tim.o --omf_browse zj-one\stm32f1xx_hal_tim.crf --depend zj-one\stm32f1xx_hal_tim.d)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69B501DD)
-<<<<<<< HEAD
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69B9481F)
-=======
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69B93E1E)
->>>>>>> d72bbd4 (RTOS_Tasks Init all)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69B501DD)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69B501DD)
 I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69B501DD)
@@ -513,11 +434,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x69B501DD)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69B501DC)
 F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c)(0x69B501DD)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_zj-one-IC:\Users\86188\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\86188\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o zj-one\stm32f1xx_hal_tim_ex.o --omf_browse zj-one\stm32f1xx_hal_tim_ex.crf --depend zj-one\stm32f1xx_hal_tim_ex.d)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69B501DD)
-<<<<<<< HEAD
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69B9481F)
-=======
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69B93E1E)
->>>>>>> d72bbd4 (RTOS_Tasks Init all)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69B501DD)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69B501DD)
 I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69B501DD)
@@ -545,11 +462,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x69B501DD)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69B501DC)
 F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c)(0x69B501DD)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_zj-one-IC:\Users\86188\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\86188\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o zj-one\stm32f1xx_hal.o --omf_browse zj-one\stm32f1xx_hal.crf --depend zj-one\stm32f1xx_hal.d)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69B501DD)
-<<<<<<< HEAD
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69B9481F)
-=======
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69B93E1E)
->>>>>>> d72bbd4 (RTOS_Tasks Init all)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69B501DD)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69B501DD)
 I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69B501DD)
@@ -577,11 +490,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x69B501DD)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69B501DC)
 F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c)(0x69B501DD)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_zj-one-IC:\Users\86188\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\86188\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o zj-one\stm32f1xx_hal_rcc.o --omf_browse zj-one\stm32f1xx_hal_rcc.crf --depend zj-one\stm32f1xx_hal_rcc.d)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69B501DD)
-<<<<<<< HEAD
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69B9481F)
-=======
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69B93E1E)
->>>>>>> d72bbd4 (RTOS_Tasks Init all)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69B501DD)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69B501DD)
 I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69B501DD)
@@ -609,11 +518,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x69B501DD)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69B501DC)
 F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c)(0x69B501DD)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_zj-one-IC:\Users\86188\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\86188\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o zj-one\stm32f1xx_hal_rcc_ex.o --omf_browse zj-one\stm32f1xx_hal_rcc_ex.crf --depend zj-one\stm32f1xx_hal_rcc_ex.d)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69B501DD)
-<<<<<<< HEAD
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69B9481F)
-=======
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69B93E1E)
->>>>>>> d72bbd4 (RTOS_Tasks Init all)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69B501DD)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69B501DD)
 I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69B501DD)
@@ -641,11 +546,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x69B501DD)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69B501DC)
 F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c)(0x69B501DD)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_zj-one-IC:\Users\86188\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\86188\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o zj-one\stm32f1xx_hal_gpio.o --omf_browse zj-one\stm32f1xx_hal_gpio.crf --depend zj-one\stm32f1xx_hal_gpio.d)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69B501DD)
-<<<<<<< HEAD
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69B9481F)
-=======
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69B93E1E)
->>>>>>> d72bbd4 (RTOS_Tasks Init all)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69B501DD)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69B501DD)
 I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69B501DD)
@@ -673,11 +574,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x69B501DD)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69B501DC)
 F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c)(0x69B501DD)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_zj-one-IC:\Users\86188\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\86188\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o zj-one\stm32f1xx_hal_dma.o --omf_browse zj-one\stm32f1xx_hal_dma.crf --depend zj-one\stm32f1xx_hal_dma.d)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69B501DD)
-<<<<<<< HEAD
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69B9481F)
-=======
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69B93E1E)
->>>>>>> d72bbd4 (RTOS_Tasks Init all)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69B501DD)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69B501DD)
 I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69B501DD)
@@ -705,11 +602,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x69B501DD)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69B501DC)
 F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c)(0x69B501DD)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_zj-one-IC:\Users\86188\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\86188\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o zj-one\stm32f1xx_hal_cortex.o --omf_browse zj-one\stm32f1xx_hal_cortex.crf --depend zj-one\stm32f1xx_hal_cortex.d)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69B501DD)
-<<<<<<< HEAD
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69B9481F)
-=======
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69B93E1E)
->>>>>>> d72bbd4 (RTOS_Tasks Init all)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69B501DD)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69B501DD)
 I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69B501DD)
@@ -737,11 +630,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x69B501DD)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69B501DC)
 F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c)(0x69B501DD)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_zj-one-IC:\Users\86188\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\86188\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o zj-one\stm32f1xx_hal_pwr.o --omf_browse zj-one\stm32f1xx_hal_pwr.crf --depend zj-one\stm32f1xx_hal_pwr.d)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69B501DD)
-<<<<<<< HEAD
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69B9481F)
-=======
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69B93E1E)
->>>>>>> d72bbd4 (RTOS_Tasks Init all)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69B501DD)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69B501DD)
 I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69B501DD)
@@ -769,11 +658,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x69B501DD)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69B501DC)
 F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c)(0x69B501DD)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_zj-one-IC:\Users\86188\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\86188\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o zj-one\stm32f1xx_hal_flash.o --omf_browse zj-one\stm32f1xx_hal_flash.crf --depend zj-one\stm32f1xx_hal_flash.d)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69B501DD)
-<<<<<<< HEAD
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69B9481F)
-=======
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69B93E1E)
->>>>>>> d72bbd4 (RTOS_Tasks Init all)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69B501DD)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69B501DD)
 I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69B501DD)
@@ -801,11 +686,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x69B501DD)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69B501DC)
 F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c)(0x69B501DD)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_zj-one-IC:\Users\86188\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\86188\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o zj-one\stm32f1xx_hal_flash_ex.o --omf_browse zj-one\stm32f1xx_hal_flash_ex.crf --depend zj-one\stm32f1xx_hal_flash_ex.d)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69B501DD)
-<<<<<<< HEAD
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69B9481F)
-=======
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69B93E1E)
->>>>>>> d72bbd4 (RTOS_Tasks Init all)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69B501DD)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69B501DD)
 I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69B501DD)
@@ -833,11 +714,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x69B501DD)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69B501DC)
 F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c)(0x69B501DD)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_zj-one-IC:\Users\86188\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\86188\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o zj-one\stm32f1xx_hal_exti.o --omf_browse zj-one\stm32f1xx_hal_exti.crf --depend zj-one\stm32f1xx_hal_exti.d)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69B501DD)
-<<<<<<< HEAD
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69B9481F)
-=======
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69B93E1E)
->>>>>>> d72bbd4 (RTOS_Tasks Init all)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69B501DD)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69B501DD)
 I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69B501DD)
@@ -865,11 +742,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x69B501DD)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x69B501DC)
 F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c)(0x69B501DD)(--c99 -c --cpu Cortex-M3 -g -O2 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3 -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_zj-one-IC:\Users\86188\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\86188\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o zj-one\stm32f1xx_hal_uart.o --omf_browse zj-one\stm32f1xx_hal_uart.crf --depend zj-one\stm32f1xx_hal_uart.d)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69B501DD)
-<<<<<<< HEAD
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69B9481F)
-=======
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69B93E1E)
->>>>>>> d72bbd4 (RTOS_Tasks Init all)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69B501DD)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69B501DD)
 I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x69B501DD)
@@ -905,11 +778,7 @@ I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x69B501CF)
 I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x69B501CF)
 I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x69B501DD)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69B501DD)
-<<<<<<< HEAD
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69B9481F)
-=======
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69B93E1E)
->>>>>>> d72bbd4 (RTOS_Tasks Init all)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69B501DD)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69B501DD)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x69B501DD)
@@ -1055,11 +924,7 @@ I (../Drivers/CMSIS/Include/core_cm3.h)(0x69B501CF)
 I (../Drivers/CMSIS/Include/cmsis_version.h)(0x69B501CF)
 I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x69B501DD)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69B501DD)
-<<<<<<< HEAD
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69B9481F)
-=======
-I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69B93E1E)
->>>>>>> d72bbd4 (RTOS_Tasks Init all)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x69B501DD)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x69B501DD)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x69B501DD)

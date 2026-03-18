@@ -39,9 +39,6 @@ zj-one\main.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
 zj-one\main.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
 zj-one\main.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
 zj-one\main.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h
-<<<<<<< HEAD
 zj-one\main.o: ../Core/Inc/dma.h
-=======
->>>>>>> d72bbd4 (RTOS_Tasks Init all)
 zj-one\main.o: ../Core/Inc/usart.h
 zj-one\main.o: ../Core/Inc/gpio.h
